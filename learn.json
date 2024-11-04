@@ -5,11 +5,11 @@
 	"solution": "https://github.com/4GeeksAcademy/web-scraping-project-tutorial/blob/main/src/solution.ipynb",
 	"status": "published",
 	"translations": ["us"],
-	"technologies": ["web-scraping", "beautiful-soup", "python", "pandas", "sqlite3", "matplotlib", "machine learning", "data science"],
+	"technologies": ["web-scraping", "beautiful-soup", "python", "pandas", "sqlite3", "matplotlib", "machine learning", "data science", "back-end", "SQL"],
 	"difficulty": "beginner",
 	"syntax": "python",
 	"duration" : 2,
 	"autoPlay": false,
-    "projectType": "project",
+    	"projectType": "project",
 	"description" : "Use python and the beautiful soup library to download, scrape, clean and visualize the revenue information from Tesla"
 }
