@@ -19,12 +19,12 @@ Follow the instructions below:
 1. **Read the `./INSTRUCTIONS.es.md` file** to learn the detailed steps of the project.  
 2. **Develop your solution in `./src/explore.ipynb`**. When you are in the `./src/explore.ipynb` file, make sure to **select the appropriate kernel**. Upon opening the notebook, a message will appear at the top indicating **"Select Kernel"**. Click on **"Select Kernel"** (as shown in the image).       
 
-    ![image-kernel](assets/image-kernel.png)
+    ![image-kernel](https://github.com/4GeeksAcademy/probability-exercises-project-in-python/blob/main/assets/image-kernel.png?raw=true)
 
     A list with available options will be displayed. Select **"Python Environments"** and choose the Python version you want to use. Make sure to select the version specified in the `devcontainer.json` file, as this is the recommended one for the project.
 
 
-    ![image-devcontainer](assets/devcontainer-image.png)
+    ![image-devcontainer](https://github.com/4GeeksAcademy/probability-exercises-project-in-python/blob/main/assets/devcontainer-image.png?raw=true)
     
 3. **Transfer the clean code to `./src/app.py`** once you have finished testing.  
 4. **Delete `./src/explore.ipynb`** after ensuring you no longer need it. This will keep the project clean and organized.  
