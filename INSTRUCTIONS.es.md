@@ -40,7 +40,9 @@ Crea una instancia vacía de la base de datos e incluye en ella los datos limpio
 3. Almacena (`commit`) los cambios.
 
 
-## Paso 6: Visualiza los datos
+## Paso 6: Visualiza los datos (opcional, pero muy recomendado)
+
+Si aún no has revisado los conceptos y prácticas de visualización, no te preocupes. Intenta hacer que esto funcione, y exploraremos la visualización en detalle en los próximos proyectos.
 
 ¿Qué tipos de visualizaciones podemos realizar? Propón al menos 3 y muéstralos.
 
