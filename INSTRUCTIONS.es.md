@@ -37,7 +37,7 @@ Es una excelente opción para practicar scraping con tablas.
 Asegúrate de que tienes instalados los paquetes `pandas` y `requests` de Python para poder trabajar en el proyecto. En el caso de que no tengas las librerías instaladas, ejecuta en la consola:
 
 ```bash
-pip install pandas requests
+pip install pandas requests lxml
 ```
 
 ## Paso 2: Descargar HTML

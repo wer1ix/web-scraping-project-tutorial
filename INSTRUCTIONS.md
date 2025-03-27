@@ -37,7 +37,7 @@ This is an excellent option for practicing table scraping.
 Make sure you have the Python packages `pandas` and `requests` installed to work on the project. If you don't have these libraries installed, run the following in the console:
 
 ```bash
-pip install pandas requests
+pip install pandas requests lxml
 ```
 
 ## Step 2: Download HTML
