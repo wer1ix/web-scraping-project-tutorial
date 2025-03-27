@@ -1,6 +1,36 @@
 # Web scraping
 
-En este proyecto, vamos a obtener y analizar los datos sobre el beneficio de Tesla, que almacenaremos previamente en un DataFrame y en una base de datos de sqlite.
+En este proyecto, vamos a recolectar, procesar y visualizar datos desde una página web real. Tienes la libertad de elegir el sitio web que más te interese (siempre que sea apto para scraping básico), o utilizar la propuesta sugerida.
+
+### ¿Qué sitio web puedes usar?
+
+**Opción A:** Sitio web de tu elección
+
+Puedes elegir cualquier página que contenga datos visibles en el HTML y que sean de tu interes.
+
+> 💡 **IMPORTANTE:** Para que la practica pueda ser llevada a cabo de una forma viable, ten en cuenta lo siguiente:
+
+- Los datos deben ser visibles al ver el código fuente (clic derecho → "Ver código fuente").
+
+- El sitio no debe requerir inicio de sesión ni usar JavaScript para cargar el contenido.
+
+- La estructura debe ser simple y repetitiva (tablas o listas).
+
+**Opción B:** Propuesta sugerida – Wikipedia: Canciones más reproducidas en Spotify 🎧
+
+Si prefieres no buscar un sitio por tu cuenta, puedes usar esta tabla de Wikipedia: [Canciones más reproducidas en Spotify](https://en.wikipedia.org/wiki/List_of_most-streamed_songs_on_Spotify)
+
+Contiene información sobre:
+
+- Título de la canción
+
+- Artista
+
+- Reproducciones
+
+- Año de lanzamiento
+
+Es una excelente opción para practicar scraping con tablas.
 
 ## Paso 1: Instalación de dependencias
 
@@ -14,16 +44,15 @@ pip install pandas requests
 
 La descarga del HTML de la página web se realizará con la librería `requests`, como vimos en la teoría del módulo.
 
-La página web que queremos scrapear es la siguiente: [https://companies-market-cap-copy.vercel.app/index.html](https://companies-market-cap-copy.vercel.app/index.html). Recopila y almacena información sobre el crecimiento de la compañía cada año, desde 2009. Almacena el texto scrapeado de la web en alguna variable.
+La página web que queremos scrapear es la siguiente: [https://en.wikipedia.org/wiki/List_of_most-streamed_songs_on_Spotify](https://en.wikipedia.org/wiki/List_of_most-streamed_songs_on_Spotify). Recopila y almacena información y guarda el texto scrapeado de la web en alguna variable.
 
 
 ## Paso 3: Transforma el HTML
 
-El siguiente paso para comenzar con la extracción de la información es transformarlo en un objeto estructurado. Hazlo utilizando `BeautifulSoup`. Una vez hayas interpretado el HTML correctamente, analízalo para:
 
-1. Buscar todas las tablas.
-2. Encontrar la tabla con la evolución anual.
-3. Almacena los datos en un DataFrame.
+Con `BeautifulSoup`, analizá el HTML para encontrar la estructura que contiene los datos (por ejemplo: <table>, <li>, <div>, etc.).
+
+Si usás Wikipedia y contiene una tabla, podés usar directamente `pandas.read_html()` para cargarla como DataFrame.
 
 
 ## Paso 4: Procesa el DataFrame
@@ -43,10 +72,3 @@ Crea una instancia vacía de la base de datos e incluye en ella los datos limpio
 ## Paso 6: Visualiza los datos
 
 ¿Qué tipos de visualizaciones podemos realizar? Propón al menos 3 y muéstralos.
-
-## Ejercicio Extra 
-
-
-Con las librerías utilizadas anteriormente extrae las ganancias del último año de Tesla desde la siguiente URL https://companies-market-cap-copy.vercel.app/earnings.html
-
-Nota: En esta ocasión, puedes escribir todo el código como un único bloque. 

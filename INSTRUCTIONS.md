@@ -1,10 +1,40 @@
-# Web scraping
+# Web Scraping
 
-In this project, we are going to obtain and analyze data about Tesla's profit, which we will previously store in a DataFrame and in a sqlite database.
+In this project, we will collect, process, and visualize data from a real web page. You are free to choose the website that interests you the most (as long as it is suitable for basic scraping) or use the suggested option.
+
+### Which website can you use?
+
+**Option A:** Website of your choice
+
+You can choose any page that contains visible data in the HTML and is of interest to you.
+
+> 💡 **IMPORTANT:** To ensure the practice can be carried out effectively, keep the following in mind:
+
+- The data must be visible when viewing the source code (right-click → "View page source").
+
+- The site should not require login or use JavaScript to load the content.
+
+- The structure should be simple and repetitive (tables or lists).
+
+**Option B:** Suggested option – Wikipedia: Most-Streamed Songs on Spotify 🎧
+
+If you prefer not to search for a site on your own, you can use this Wikipedia table: [Most-Streamed Songs on Spotify](https://en.wikipedia.org/wiki/List_of_most-streamed_songs_on_Spotify)
+
+It contains information about:
+
+- Song title
+
+- Artist
+
+- Streams
+
+- Release year
+
+This is an excellent option for practicing table scraping.
 
 ## Step 1: Install dependencies
 
-Make sure you have the Python `pandas` and `requests` packages installed to be able to work on the project. In case you do not have the libraries installed, run them in the console:
+Make sure you have the Python packages `pandas` and `requests` installed to work on the project. If you don't have these libraries installed, run the following in the console:
 
 ```bash
 pip install pandas requests
@@ -12,42 +42,28 @@ pip install pandas requests
 
 ## Step 2: Download HTML
 
-The download of the HTML of the web page will be done with the `requests` library, as we saw in the module theory.
+The HTML of the web page will be downloaded using the `requests` library, as we saw in the module's theory.
 
-The web page we want to scrape is the following: [https://companies-market-cap-copy.vercel.app/index.html](https://companies-market-cap-copy.vercel.app/index.html). It collects and stores information about the growth of the company every year, since 2009. It stores the text scraped from the web in some variable.
-
+The web page we want to scrape is the following: [https://en.wikipedia.org/wiki/List_of_most-streamed_songs_on_Spotify](https://en.wikipedia.org/wiki/List_of_most-streamed_songs_on_Spotify). Collect and store the scraped text from the web in a variable.
 
 ## Step 3: Transform the HTML
 
-The next step to start extracting the information is to transform it into a structured object. Do this using `BeautifulSoup`. Once you have interpreted the HTML correctly, parse it to:
+Using `BeautifulSoup`, analyze the HTML to find the structure containing the data (e.g., `<table>`, `<li>`, `<div>`, etc.).
 
-1. Find all the tables.
-2. Find the table with the year evolution.
-3. Store the data in a DataFrame.
-
+If you are using Wikipedia and it contains a table, you can directly use `pandas.read_html()` to load it as a DataFrame.
 
 ## Step 4: Process the DataFrame
 
-Next, clean up the rows to get clean values by removing `$` and `B`. Remove also those that are empty or have no information.
+Next, clean the rows to obtain clean values by removing `$` and `B`. Also, remove any rows that are empty or lack information.
 
+## Step 5: Store the data in SQLite
 
-## Step 5: Store the data in sqlite
-
-Create an empty instance of the database and include the clean data in it, as we saw in the database module. Once you have an empty database:
+Create an empty database instance and include the cleaned data in it, as we saw in the database module. Once you have an empty database:
 
 1. Create the table.
 2. Insert the values.
-3. Store (`commit`) the changes.
-
+3. Commit the changes.
 
 ## Step 6: Visualize the data
 
-What types of visualizations can we make? Suggest at least 3 and plot them.
-
-## Extra excercise 
-
-## Extra 
-
-Using the libraries mentioned earlier, extract Tesla's earnings from the last year from the following URL: https://companies-market-cap-copy.vercel.app/earnings.html
-
-Note: This time, we can choose to write the entire code as a single block. 
+What types of visualizations can we create? Propose at least 3 and display them.
