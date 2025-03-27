@@ -64,6 +64,8 @@ Create an empty database instance and include the cleaned data in it, as we saw 
 2. Insert the values.
 3. Commit the changes.
 
-## Step 6: Visualize the data
+## Step 6: Visualize the data (optional, but highly recommended)
+
+If you haven't reviewed the concepts and practices of visualization yet, don't worry. Try to make this work, and we will explore visualization in detail in upcoming projects.
 
 What types of visualizations can we create? Propose at least 3 and display them.
