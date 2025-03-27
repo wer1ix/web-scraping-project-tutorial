@@ -40,7 +40,9 @@ Create an empty instance of the database and include the clean data in it, as we
 3. Store (`commit`) the changes.
 
 
-## Step 6: Visualize the data
+## Step 6: Visualize the data (optional but recommended)
+
+If you haven’t gone through the visualization concepts and practices yet, don’t worry. Try making this work, and we’ll explore visualization in depth in the next few projects.
 
 What types of visualizations can we make? Suggest at least 3 and plot them.
 
