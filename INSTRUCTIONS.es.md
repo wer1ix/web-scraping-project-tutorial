@@ -50,7 +50,7 @@ La página web que queremos scrapear es la siguiente: [https://en.wikipedia.org/
 ## Paso 3: Transforma el HTML
 
 
-Con `BeautifulSoup`, analizá el HTML para encontrar la estructura que contiene los datos (por ejemplo: <table>, <li>, <div>, etc.).
+Con `BeautifulSoup`, analizá el HTML para encontrar la estructura que contiene los datos (por ejemplo: `<table>`, `<li>`, `<div>`, etc.).
 
 Si usás Wikipedia y contiene una tabla, podés usar directamente `pandas.read_html()` para cargarla como DataFrame.
 
