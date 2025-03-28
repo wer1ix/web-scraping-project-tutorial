@@ -74,3 +74,51 @@ Crea una instancia vacía de la base de datos e incluye en ella los datos limpio
 Si aún no has revisado los conceptos y prácticas de visualización, no te preocupes. Intenta hacer que esto funcione, y exploraremos la visualización en detalle en los próximos proyectos.
 
 ¿Qué tipos de visualizaciones podemos realizar? Propón al menos 3 y muéstralos.
+
+
+## ¿Te sientes confiado/a? 😎
+
+### Monitoreo diario del ranking musical - Versión extendida para estudiantes con confianza
+
+Si te sientes confiado/a y quieres profundizar en el uso de scraping y análisis temporal de datos, te proponemos realizar esta version extendida y opcional del proyecto, que te ayudará a conectar scraping, análisis de datos reales y visibilidad profesional, lo cual será ideal para mostrar en LinkedIn o un portafolio.
+
+La idea es obtener información diaria del ranking musical (como el top 100 de canciones en Spotify desde Wikipedia) y estudiar tendencias reales a lo largo del tiempo.
+
+
+### Propuesta 🚀
+
+1. **Scraper diario:** Usa el scraper del proyecto original. Programalo para que se ejecute a diario (puede usarse cron en Linux/Mac o Task Scheduler en Windows).
+
+    Almacena los datos en una base SQLite, agregando una columna `date` con el día de ejecución.
+
+2. **Base de datos:** Crea una tabla llamada `daily_rankings` que contenga las siguientes columnas:
+
+    - scraping_date
+    - rank
+    - song
+    - artist
+    - streams
+    - release_year
+
+
+3. **Visualizaciones sugeridas:**
+
+    - Evolución de una canción a lo largo de los días
+    - Tiempo promedio en el top 10, top 50 o top 100
+    - Artistas con más entradas y mayor duración promedio
+
+4. **Haz visible tu trabajo:** Publica en LinkedIn tu trabajo. Haz el seguimiento por al menos 2 semanas y publica una visualización o hallazgo diariamente o cada 2-3 días; usa notebooks, dashboards o posts gráficos para compartir lo aprendido.
+
+A continuación te sugerimos una posible publicación, para tu LinkedIn:
+
+
+> Entre mis primeros proyectos como Data Scientist, hoy empecé a monitorear diariamente el 
+> ranking de las canciones más escuchadas en Spotify. Revisar estos rankings es clave para 
+> entender muchísimo sobre cómo se mueve el dinero, el marketing y las tendencias en la industria
+> musical.
+>
+> Ire compartiendo mis visualizaciones e insights en los próximos días.
+>
+> ¡La música también se puede estudiar con datos! 🎶📊
+>
+> **#DataScience #Spotify #WebScraping #TendenciasMusicales**

@@ -69,3 +69,46 @@ Create an empty database instance and include the cleaned data in it, as we saw 
 If you haven’t gone through the visualization concepts and practices yet, don’t worry. Try making this work, and we’ll explore visualization in depth in the next few projects.
 
 What types of visualizations can we make? Suggest at least 3 and plot them.
+
+
+## Do You Feel Confident? 😎
+
+### Daily Monitoring of Music Rankings - Extended Version for Confident Students
+
+If you feel confident and want to deepen your skills in web scraping and temporal data analysis, we propose this extended and optional version of the project. It will help you connect scraping, real data analysis, and professional visibility, making it ideal to showcase on LinkedIn or in a portfolio.
+
+The idea is to collect daily information about music rankings (such as Spotify's top 100 songs from Wikipedia) and study real trends over time.
+
+### Proposal 🚀
+
+1. **Daily Scraper:** Use the scraper from the original project. Schedule it to run daily (you can use cron on Linux/Mac or Task Scheduler on Windows).
+
+    Store the data in an SQLite database, adding a `date` column with the execution day.
+
+2. **Database:** Create a table called `daily_rankings` with the following columns:
+
+    - scraping_date
+    - rank
+    - song
+    - artist
+    - streams
+    - release_year
+
+3. **Suggested Visualizations:**
+
+    - Evolution of a song over time
+    - Average time spent in the top 10, top 50, or top 100
+    - Artists with the most entries and highest average duration
+
+4. **Make Your Work Visible:** Share your work on LinkedIn. Track the data for at least 2 weeks and publish a visualization or insight daily or every 2-3 days. Use notebooks, dashboards, or graphical posts to share what you’ve learned.
+
+Here’s a suggested LinkedIn post:
+
+> Among my first projects as a Data Scientist, today I started monitoring the daily rankings of the most-streamed songs on Spotify. Reviewing these rankings is key to understanding a lot about how money, marketing, and trends move in the music industry.
+>
+> I’ll be sharing my visualizations and insights in the coming days.
+>
+> Music can also be studied with data! 🎶📊
+>
+> **#DataScience #Spotify #WebScraping #MusicTrends**
+
