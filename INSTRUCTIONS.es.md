@@ -109,16 +109,16 @@ La idea es obtener información diaria del ranking musical (como el top 100 de c
 
 4. **Haz visible tu trabajo:** Publica en LinkedIn tu trabajo. Haz el seguimiento por al menos 2 semanas y publica una visualización o hallazgo diariamente o cada 2-3 días; usa notebooks, dashboards o posts gráficos para compartir lo aprendido.
 
-A continuación te sugerimos una posible publicación, para tu LinkedIn:
+    A continuación te sugerimos una posible publicación, para tu LinkedIn:
 
 
-> Entre mis primeros proyectos como Data Scientist, hoy empecé a monitorear diariamente el 
-> ranking de las canciones más escuchadas en Spotify. Revisar estos rankings es clave para 
-> entender muchísimo sobre cómo se mueve el dinero, el marketing y las tendencias en la industria
-> musical.
->
-> Ire compartiendo mis visualizaciones e insights en los próximos días.
->
-> ¡La música también se puede estudiar con datos! 🎶📊
->
-> **#DataScience #Spotify #WebScraping #TendenciasMusicales**
+    > Entre mis primeros proyectos como Data Scientist, hoy empecé a monitorear diariamente el 
+    > ranking de las canciones más escuchadas en Spotify. Revisar estos rankings es clave para 
+    > entender muchísimo sobre cómo se mueve el dinero, el marketing y las tendencias en la industria
+    > musical.
+    >
+    > Ire compartiendo mis visualizaciones e insights en los próximos días.
+    >
+    > ¡La música también se puede estudiar con datos! 🎶📊
+    >
+    > **#DataScience #Spotify #WebScraping #TendenciasMusicales**

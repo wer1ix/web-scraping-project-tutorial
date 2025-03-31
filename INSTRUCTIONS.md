@@ -102,13 +102,13 @@ The idea is to collect daily information about music rankings (such as Spotify's
 
 4. **Make Your Work Visible:** Share your work on LinkedIn. Track the data for at least 2 weeks and publish a visualization or insight daily or every 2-3 days. Use notebooks, dashboards, or graphical posts to share what you’ve learned.
 
-Here’s a suggested LinkedIn post:
+    Here’s a suggested LinkedIn post:
 
-> Among my first projects as a Data Scientist, today I started monitoring the daily rankings of the most-streamed songs on Spotify. Reviewing these rankings is key to understanding a lot about how money, marketing, and trends move in the music industry.
->
-> I’ll be sharing my visualizations and insights in the coming days.
->
-> Music can also be studied with data! 🎶📊
->
-> **#DataScience #Spotify #WebScraping #MusicTrends**
+    > Among my first projects as a Data Scientist, today I started monitoring the daily rankings of the most-streamed songs on Spotify. Reviewing these rankings is key to understanding a lot about how money, marketing, and trends move in the music industry.
+    >
+    > I’ll be sharing my visualizations and insights in the coming days.
+    >
+    > Music can also be studied with data! 🎶📊
+    >
+    > **#DataScience #Spotify #WebScraping #MusicTrends**
 
