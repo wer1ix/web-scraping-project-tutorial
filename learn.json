@@ -11,7 +11,7 @@
 	"syntax": "python",
 	"duration" : 2,
 	"autoPlay": false,
-    	"projectType": "project",
+    "projectType": "project",
 	"description" : {
 		"us": "Use python and the beautiful soup library to download, scrape, clean and visualize the revenue information",
 		"es": "Usa Python y la biblioteca Beautiful Soup para descargar, extraer, limpiar y visualizar información."
